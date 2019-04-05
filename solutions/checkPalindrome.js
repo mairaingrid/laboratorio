@@ -1,5 +1,5 @@
-function checkPalindrome(str) {
-   low = str.toLowerCase();
+function checkPalindrome(aux) {
+   low = aux.toLowerCase();
    regExp = low.replace(/[\W_]/g, "");
    s = regExp.split("");
    r = s.reverse();
